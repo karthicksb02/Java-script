@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<body>
+<title>Assignment3 as a que 3</title>
+<p>Click the button to demonstrate the prompt box.</p>
+
+<button onclick="myFunction()">check eligibility</button>
+
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+  var age = prompt("Please enter your age", "18");
+  if (age >=18) {
+    document.getElementById("demo").innerHTML =
+    "you are"+ age + "year old so you can drink";
+  }
+  else{
+  document.getElementById("demo").innerHTML =
+    "you are"+ age + " year old you cannot drink";
+  }
+}
+</script>
+
+</body>
+</html>
